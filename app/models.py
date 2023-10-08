@@ -8,7 +8,7 @@ class GoodMorning(models.Model):
         ('pm', 'PM'),
     )
 
-    time_hour = models.IntegerField(null=True, blank=True)
+    time_hour = models.IntegerField(blank=True)
     am_pm = models.CharField(max_length=10, choices=AMPM)
 
     def __str__(self):
