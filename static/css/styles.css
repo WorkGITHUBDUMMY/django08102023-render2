@@ -1,0 +1,14 @@
+.baseclass{background:
+      conic-gradient(at 10% 50%,#0000 75%,#9b9bb0 0),
+      conic-gradient(at 10% 50%,#0000 75%,#9b9bb0 0) calc(1*32px) calc(3*32px),
+      conic-gradient(at 10% 50%,#0000 75%,#9b9bb0 0) calc(2*32px) calc(1*32px),
+      conic-gradient(at 10% 50%,#0000 75%,#9b9bb0 0) calc(3*32px) calc(4*32px),
+      conic-gradient(at 10% 50%,#0000 75%,#9b9bb0 0) calc(4*32px) calc(2*32px),
+      conic-gradient(at 50% 10%,#0000 75%,#9b9bb0 0) 0 calc(4*32px),
+      conic-gradient(at 50% 10%,#0000 75%,#9b9bb0 0) calc(1*32px) calc(2*32px),
+      conic-gradient(at 50% 10%,#0000 75%,#9b9bb0 0) calc(2*32px) 0,
+      conic-gradient(at 50% 10%,#0000 75%,#9b9bb0 0) calc(3*32px) calc(3*32px),
+      conic-gradient(at 50% 10%,#0000 75%,#9b9bb0 0) calc(4*32px) calc(1*32px),
+      #c9eaf4;
+background-size: 160px 160px;
+}
