@@ -15,8 +15,9 @@ def home(request):
                     context = "Noon to Night"
             else:
                 context = "You are not alive, not selected"
+        return render(request, 'base.html', {'context':context, })
+    
     except:
         context = "You are not alive, table value not exists"
+        return render(request, 'base.html', {'context':context, })
     
-    
-    return render(request, 'base.html', {'context':context, })
